@@ -1,0 +1,13 @@
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\bin\Debug\netstandard2.0\Core.dll
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
