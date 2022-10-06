@@ -19,7 +19,7 @@ namespace Business.Concrete
 
         public List<Category> GetAll()
         {
-            //iş kodlarının yazıldığı yer
+            //iş kodlarının yazıldığı yer 
             return _categoryDal.GetAll();
         }
 

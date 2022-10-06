@@ -13,3 +13,18 @@ D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\DataAccess\obj\Debug\netst
 D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
 D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
 D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+D:\Users\Ozan\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

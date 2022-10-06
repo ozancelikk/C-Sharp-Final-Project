@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "D:\\Users\\Ozan\\Desktop\\FinalProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Business\\Business.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\FinalProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Business\\Business.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Business\\Business.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Business\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -76,14 +80,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\FinalProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\ConsoleUI\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,14 +104,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Business\\Business.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Business\\Business.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\Business\\Business.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Business\\Business.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -140,14 +144,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\Core.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\Core.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\Core.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -176,6 +180,22 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -201,14 +221,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\DataAccess.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\DataAccess\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -225,11 +245,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\Core.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\Core.csproj"
               },
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -269,14 +289,14 @@
         }
       }
     },
-    "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj": {
+    "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\Entities.csproj",
         "packagesPath": "D:\\Users\\Ozan\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Entities\\obj\\",
+        "outputPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Ozan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -293,8 +313,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\Core\\Core.csproj"
+              "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\Core\\Core.csproj"
               }
             }
           }

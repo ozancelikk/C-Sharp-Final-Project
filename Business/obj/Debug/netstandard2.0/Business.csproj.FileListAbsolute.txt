@@ -15,3 +15,20 @@ D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Business\obj\Debug\netstan
 D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Business\obj\Debug\netstandard2.0\Business.pdb
 D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Business\bin\Debug\netstandard2.0\Core.dll
 D:\Users\Ozan\Desktop\ozztech c#\project\FinalProject\Business\bin\Debug\netstandard2.0\Core.pdb
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\Business.deps.json
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\Business.dll
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\Business.pdb
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\Core.dll
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\DataAccess.dll
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\Entities.dll
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\Entities.pdb
+D:\Users\Ozan\Desktop\FinalProject\Business\bin\Debug\netstandard2.0\Core.pdb
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.dll
+D:\Users\Ozan\Desktop\FinalProject\Business\obj\Debug\netstandard2.0\Business.pdb

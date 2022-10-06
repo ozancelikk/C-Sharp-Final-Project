@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "0HN72uuyBcvwvNy5WyJDrCQCVz6L/yv/YqJjDHcSqNlIVvfbPiCJnAK9l32zIY7i05atBdLNAFUWNwx5gjsFaw==",
+  "dgSpecHash": "J9aSP8LCzrYRMdtD0GlD+H/CglXkm+K0Fb1bK/ZNFCqApnZadjPuC0qVTYLeri3oMoH63FIoiE6JJABmXpuuOA==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\ozztech c#\\project\\FinalProject\\WebApi2\\WebApi2.csproj",
+  "projectFilePath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\WebApi2\\WebApi2.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\Ozan\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "D:\\Users\\Ozan\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore\\2.0.0\\microsoft.entityframeworkcore.2.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.0.0\\microsoft.entityframeworkcore.relational.2.0.0.nupkg.sha512",
