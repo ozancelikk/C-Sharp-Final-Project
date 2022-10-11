@@ -26,7 +26,7 @@ namespace WebApi2
                 {
                     builder.RegisterModule(new AutofacBusinessModule());
                 })
-                .ConfigureWebHostDefaults(webBuilder =>
+                .ConfigureWebHostDefaults(webBuilder => 
                 {
                     webBuilder.UseStartup<Startup>();
                 });
