@@ -1,16 +1,13 @@
 ﻿using Business.Abstract;
-using Business.CCS;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
-using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
-using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using Entities.DTOs;
-using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,8 +56,8 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<ProductDetailDto>>( _productDal.GetProductDetails());
         }
-        
-        
+        //Claim:kullanıcının product.add yada admin claimlerinden birine sahip olması gerekir claim: yetki.
+        [SecuredOperation("product.add")]
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
@@ -73,18 +70,13 @@ namespace Business.Concrete
                 return result;
             }
             _productDal.Add(product); 
-            return new SuccesResult(Messages.ProductAdded);
+            return new SuccessResult(Messages.ProductAdded);
         }
 
         public IDataResult<Product> getById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
-        }
-
-        IDataResult<List<ProductDetailDto>> IProductService.GetProductDetails()
-        {
-            throw new NotImplementedException();
-        }
+        }   
 
         public IDataResult<Product> GetById(int productId)
         {
@@ -99,7 +91,7 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
-            return new SuccesResult();
+            return new SuccessResult();
         }
         private IResult CheckIfProductNameExists(string productName)
         {
@@ -108,7 +100,7 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.ProductNameAlreadyExists);
             }
-            return new SuccesResult();
+            return new SuccessResult();
         }
         private IResult ChechİfCategoryLimitExceded()
         {
@@ -117,7 +109,7 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.CategoryLimitExceded);
             }
-            return new SuccesResult();
+            return new SuccessResult();
         }
     }
 }

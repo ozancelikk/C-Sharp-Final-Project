@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Core.Utilities.Results
 {
-    public class SuccesResult:Result
+    public class SuccessResult:Result
     {
-        public SuccesResult(string message) : base(true,message)//base üstteki resulta gönder demek
+        public SuccessResult(string message) : base(true,message)//base üstteki resulta gönder demek
         {
 
         }
-        public SuccesResult():base(true)
+        public SuccessResult():base(true)
         {
 
         }
