@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -17,6 +18,7 @@ namespace WebApi2.Controllers
         }
 
         [HttpGet("getall")]
+        [Authorize(Roles ="Product.List")]
         public IActionResult GetAll()
         {
             var result= _productService.GetAll();

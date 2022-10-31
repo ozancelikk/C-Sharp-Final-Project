@@ -2,6 +2,7 @@
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
@@ -24,7 +25,7 @@ namespace Business.Concrete
             _productDal = productDal;
             _categoryService = categoryService;
         }
-
+        [CacheAspect] //Key,Value ile tutulur.
         public IDataResult<List<Product>> GetAll()
         {
             //iş kodları
@@ -56,8 +57,21 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<ProductDetailDto>>( _productDal.GetProductDetails());
         }
+        [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("get")]
+        public IResult Update(Product product)
+        {
+            var result = _productDal.GetAll(p => p.CategoryId == product.CategoryId).Count;
+            if (result >= 10)
+            {
+                return new ErrorResult(Messages.ProductCountOfCategoryError);
+            }
+            throw new NotImplementedException();
+        }
+
+
         //Claim:kullanıcının product.add yada admin claimlerinden birine sahip olması gerekir claim: yetki.
-        [SecuredOperation("product.add")]
+        [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
@@ -72,12 +86,7 @@ namespace Business.Concrete
             _productDal.Add(product); 
             return new SuccessResult(Messages.ProductAdded);
         }
-
-        public IDataResult<Product> getById(int productId)
-        {
-            return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
-        }   
-
+        [CacheAspect] 
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
@@ -87,7 +96,7 @@ namespace Business.Concrete
         {
             //Bir kategoride en fazla 10 ürün olabilir.
             var result = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
-            if (result >= 10)
+            if (result > 10)
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
@@ -111,5 +120,7 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
+
+       
     }
 }

@@ -14,7 +14,7 @@
           "Autofac.Extras.DynamicProxy": "6.0.1",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
-          "FluentValidation": "11.2.2",
+          "FluentValidation": "8.5.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "NETStandard.Library": "2.0.3"
@@ -79,14 +79,14 @@
           }
         }
       },
-      "FluentValidation/11.2.2": {
+      "FluentValidation/8.5.1": {
         "dependencies": {
-          "System.Threading.Tasks.Extensions": "4.5.4"
+          "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.2.2.0"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.5.1.0"
           }
         }
       },
@@ -1218,7 +1218,7 @@
           "Autofac": "6.4.0",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
           "Autofac.Extras.DynamicProxy": "6.0.1",
-          "FluentValidation": "11.2.2",
+          "FluentValidation": "8.5.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
           "Microsoft.Extensions.Configuration": "2.2.0",
@@ -1285,12 +1285,12 @@
       "path": "castle.core/4.4.0",
       "hashPath": "castle.core.4.4.0.nupkg.sha512"
     },
-    "FluentValidation/11.2.2": {
+    "FluentValidation/8.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
-      "path": "fluentvalidation/11.2.2",
-      "hashPath": "fluentvalidation.11.2.2.nupkg.sha512"
+      "sha512": "sha512-GoygZcMkCcve3UHZM3ITSzgrPdfjPSl5mRSQKL6BlV8aI0yi+shIAju7k6QirPESNGsKzn+r4ne0JmqsAGG/PA==",
+      "path": "fluentvalidation/8.5.1",
+      "hashPath": "fluentvalidation.8.5.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.10": {
       "type": "package",

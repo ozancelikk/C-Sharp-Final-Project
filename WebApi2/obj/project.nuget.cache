@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VyyojnrHN5QIffpkKQf2VYp1o4hnb99rI0mbBZNTP5+5AQyeWlEYOzcwNz2VJGXXQ9Z4wEXveh+bSOm8QezuBA==",
+  "dgSpecHash": "VCOBMNwNFy5SZhsXlJUOeKZzJjDN+H4pRAzA+/zfIEtDo7kQAn1aG5SNze28fgVXHcGclz9IM7S2zrjeS3VViQ==",
   "success": true,
   "projectFilePath": "D:\\Users\\Ozan\\Desktop\\FinalProject\\WebApi2\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "D:\\Users\\Ozan\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
-    "D:\\Users\\Ozan\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "D:\\Users\\Ozan\\.nuget\\packages\\fluentvalidation\\8.5.1\\fluentvalidation.8.5.1.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.12\\microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",
     "D:\\Users\\Ozan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.10\\microsoft.aspnetcore.cryptography.keyderivation.6.0.10.nupkg.sha512",
