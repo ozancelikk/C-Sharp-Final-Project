@@ -18,7 +18,7 @@ namespace WebApi2.Controllers
         }
 
         [HttpGet("getall")]
-        [Authorize(Roles ="Product.List")]
+        //[Authorize(Roles ="Product.List")]
         public IActionResult GetAll()
         {
             var result= _productService.GetAll();
@@ -34,6 +34,17 @@ namespace WebApi2.Controllers
         public IActionResult GetById(int id)
         {
             var result = _productService.GetById(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getbycategory")]
+        public IActionResult GetByCategory(int categoryId)
+        {
+            var result = _productService.GetAllByCategoryId(categoryId);
             if (result.Success)
             {
                 return Ok(result);

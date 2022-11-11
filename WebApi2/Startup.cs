@@ -41,6 +41,9 @@ namespace WebApi2
             services.AddControllers();
             //services.AddSingleton<IProductService,ProductManager>();// eğer birisi IproductService isterse ona yeni bir productManager ver demek
             //services.AddSingleton<IProductDal, EfProductDal>();// eğer birisi sendem IProductDal isterse ona yeni bir EfProductDal ver .
+
+            services.AddCors();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApi2", Version = "v1" });
@@ -63,6 +66,7 @@ namespace WebApi2
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
+            
             services.AddDependencyResolvers(new ICoreModule[] {
                 new CoreModule()
             });
@@ -80,7 +84,8 @@ namespace WebApi2
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi2 v1"));
             }
-            app.UseCors(builder => builder.WithOrigins("http://localhost:3000").AllowAnyHeader());
+            app.UseCors(builder => builder.WithOrigins("http://localhost:3000").AllowAnyHeader());//3000 den gelecek isteklere izin ver
+            app.UseCors(builder=>builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

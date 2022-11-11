@@ -87,6 +87,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded);
         }
         [CacheAspect] 
+        //[PerformanceAspect(5)]
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
@@ -121,6 +122,18 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
-       
+        //[TransactionScopeAspect]
+        public IResult AddTransactionalTest(Product product)
+        {
+
+            Add(product);
+            if (product.UnitPrice<10)
+            {
+                throw new Exception("");
+            }
+            
+            Add(product);
+            return null;
+        }
     }
 }
