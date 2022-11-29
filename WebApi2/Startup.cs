@@ -76,7 +76,7 @@ namespace WebApi2
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment en)
         {
             if (env.IsDevelopment())
             {
@@ -84,8 +84,9 @@ namespace WebApi2
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi2 v1"));
             }
-            app.UseCors(builder => builder.WithOrigins("http://localhost:3000").AllowAnyHeader());//3000 den gelecek isteklere izin ver
-            app.UseCors(builder=>builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+            app.ConfigureCustomExceptionMiddleware();
+                
+            app.UseCors(builder => builder.WithOrigins("http://localhost:4201","http://localhost:4200").AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

@@ -30,10 +30,10 @@ namespace Business.Concrete
         {
             //iş kodları
             //yetkisi var mı
-            if (DateTime.Now.Hour==17)
-            {
-                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
-            }
+            //if (DateTime.Now.Hour==17)
+            //{
+            //    return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            //}
 
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductsListed); 
         }
@@ -73,6 +73,7 @@ namespace Business.Concrete
         //Claim:kullanıcının product.add yada admin claimlerinden birine sahip olması gerekir claim: yetki.
         [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.get")]
         public IResult Add(Product product)
         {
             //Aynı isimde ürün eklenemez
@@ -97,7 +98,7 @@ namespace Business.Concrete
         {
             //Bir kategoride en fazla 10 ürün olabilir.
             var result = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
-            if (result > 10)
+            if (result > 100)
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
@@ -115,7 +116,7 @@ namespace Business.Concrete
         private IResult ChechİfCategoryLimitExceded()
         {
             var result = _categoryService.GetAll();
-            if (result.Data.Count>=15)
+            if (result.Data.Count>=150)
             {
                 return new ErrorResult(Messages.CategoryLimitExceded);
             }
@@ -127,7 +128,7 @@ namespace Business.Concrete
         {
 
             Add(product);
-            if (product.UnitPrice<10)
+            if (product.UnitPrice<100)
             {
                 throw new Exception("");
             }

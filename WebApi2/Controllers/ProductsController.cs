@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -53,8 +54,15 @@ namespace WebApi2.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(Product product)
+        public IActionResult Add(ProductDto productDto)
         {
+            var product = new Product
+            {
+                CategoryId = productDto.CategoryId,
+                ProductName = productDto.ProductName,
+                UnitPrice = productDto.UnitPrice,
+                UnitsInStock = productDto.UnitsInStock
+            };
             var result = _productService.Add(product);
             if (result.Success)
             {

@@ -23,7 +23,7 @@ namespace Business.Constants
         internal static string PasswordError="Şifre Hatalı";
         internal static string SuccessfulLogin="Başarılı Giriş";
         internal static string UserAlreadyExists="Kullanıcı mevcut";
-        internal static string AccessTokenCreated;
-        internal static string CategoryAdded;
+        internal static string AccessTokenCreated="Token Oluşturuldu";
+        internal static string CategoryAdded="Kategori Eklendi";
     }
 }
